@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logika</title>
+  </head>
+  <body>
+    <script>
+      const kondisi1 = true;
+      const kondisi2 = false;
+      let hasil;
+
+      // AND atau && [harus true kedua kondisi untuk mendapatkan hasil true]
+      hasil = kondisi1 && kondisi2;
+      document.writeln("<p> Hasil dari " + kondisi1 + " && " + kondisi2 + " adalah " + hasil + "</p>");
+
+      hasil = kondisi1 && kondisi1;
+      document.writeln("<p> Hasil dari " + kondisi1 + " && " + kondisi1 + " adalah " + hasil + "</p>");
+
+      // OR atau || [salah satu kondisi harus true untuk mendapatkan hasil true]
+      hasil = kondisi1 || kondisi2;
+      document.writeln("<p> Hasil dari " + kondisi1 + " || " + kondisi2 + " adalah " + hasil + "</p>");
+
+      hasil = kondisi1 || kondisi1;
+      document.writeln("<p> Hasil dari " + kondisi1 + " || " + kondisi1 + " adalah " + hasil + "</p>");
+
+      hasil = kondisi2 || kondisi2;
+      document.writeln("<p> Hasil dari " + kondisi2 + " || " + kondisi2 + " adalah " + hasil + "</p>");
+
+      // NOT atau ! untuk membalikan nilai [kebalikan dari suatu kondisi]
+    </script>
+  </body>
+</html>

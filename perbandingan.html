@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>perbandingan</title>
+  </head>
+  <body>
+    <script>
+      let bilangan1 = 5;
+      let bilangan2 = 8;
+      let hasil;
+      //contoh > / lebih dari
+      hasil = bilangan1 > bilangan2;
+      document.writeln("<p> Hasil dari " + bilangan1 + " > " + bilangan2 + " adalah " + hasil + "</p>");
+
+      //contoh < / kurang dari
+      hasil = bilangan1 < bilangan2;
+      document.writeln("<p> Hasil dari " + bilangan1 + " < " + bilangan2 + " adalah " + hasil + "</p>");
+
+      //contoh <= / kurang dari sama dengan
+      bilangan1 = 5;
+      bilangan2 = 5;
+      hasil = bilangan1 <= bilangan2;
+      document.writeln("<p> Hasil dari " + bilangan1 + " <= " + bilangan2 + " adalah " + hasil + "</p>");
+
+      //contoh >= / lebih besar sama dengan
+      bilangan1 = 8;
+      bilangan2 = 8;
+      hasil = bilangan1 >= bilangan2;
+      document.writeln("<p> Hasil dari " + bilangan1 + " >= " + bilangan2 + " adalah " + hasil + "</p>");
+
+      //contoh !=
+      bilangan1 = 5;
+      bilangan2 = 5;
+      hasil = bilangan1 != bilangan2;
+      document.writeln("<p> Hasil dari " + bilangan1 + " != " + bilangan2 + " adalah " + hasil + "</p>");
+
+      /*untuk membandingkan nilai dengan tipe data yang wajib sama dapat menggunakan
+        '===' atau '!==' (untuk NOT). contoh hasil = bilangan1 === bilangan2.
+        contoh:
+      */
+      bilangan1 = 5;
+      bilangan2 = "5";
+      hasil = bilangan1 === bilangan2;
+      document.writeln("<p> Hasil dari " + bilangan1 + " === " + bilangan2 + " (string) adalah " + hasil + "</p>");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARITMATIKA</title>
+  </head>
+  <body>
+    <script>
+      let box = 1;
+      //penjumlahan
+      document.writeln("<p>Hasil dari " + box + " + 1 = " + (box + 1));
+      //pengurangan
+      document.writeln("<p>Hasil dari " + box + " - 1 = " + (box - 1));
+      //pembagian
+      document.writeln("<p>Hasil dari " + box + " / 1 = " + box / 1);
+      //modulus
+      document.writeln("<p>Hasil dari " + box + " % 1 = " + (box % 1));
+      // bisa juga dengan
+      /*box + 1 sama saja dengan box += 1 / nilai dari box sebelumnya ditambah 1
+      box - 1 sama saja dengan box -= 1 / nilai dari box sebelumnya dikurang 1
+      box / 1 sama saja dengan box /= 1 / nilai dari box sebelumnya dibagi 1
+      dst */
+      // contoh
+      let bilangan = 6;
+      let hasil = bilangan;
+      hasil += 3;
+      document.writeln("<p>Hasil dari " + bilangan + " += 3 adalah " + hasil);
+
+      // Perpangkatan
+      document.writeln("<p>Hasil dari " + box + " **4(pangkat) = " + box ** 4);
+
+      // Mengubah bilangan positif ke negatif
+      document.writeln("<p>Hasil dari " + box + " diubah ke negatif menjadi " + -box);
+    </script>
+  </body>
+</html>
